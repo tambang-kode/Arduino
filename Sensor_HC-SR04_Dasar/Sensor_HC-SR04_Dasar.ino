@@ -4,7 +4,7 @@ Mengukur jarak benda dengan sensor HC-SR04
 ------------------------------------
 oleh : Tambang Kode
 kunjungi social media kami di
-Blog : www.tambangkode.wordpress.com
+Blog : www.blogtambangkode.wordpress.com
 Youtube : Tambang Kode
 */
 
