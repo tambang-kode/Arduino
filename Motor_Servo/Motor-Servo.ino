@@ -10,8 +10,11 @@
 #include <Servo.h> // menyertakan library servo
 Servo myservo; // membuat object dari class Servo
 
+int minimum = 480;
+int maximum = 2500;
+
 void setup() {
-  myservo.attach(9); // pin 9 Arduino yang terhubung ke PWM servo
+  myservo.attach(9, minimum, maximum); // pin 9 Arduino yang terhubung ke PWM servo
  
 }
 
