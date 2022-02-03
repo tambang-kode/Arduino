@@ -1,9 +1,18 @@
+/* KONTROL PUTARAN SERVO MELALUI BLYNK
+ * ==============================
+ * Code in here by : Tambang Kode
+ * ==============================
+ * Kunjungi social media kami di :
+ * Blog : www.blogtambangkode.wordpress.com
+ * Youtube : Tambang Kode
+ */
 /*
  * Wiring :
  * D1 (PWM) -> kabel orange servo
  * Vin -> kabel merah servo
  * GND -> kabel cokelat servo
  */
+
 #include <ESP8266WiFi.h>
 #include <BlynkSimpleEsp8266.h>
 #include <Servo.h>
@@ -11,7 +20,6 @@
 #define BLYNK_PRINT Serial
 Servo myservo;
 
-// liat penjelasannya di makerguides.com "how to control servo motors with arduino"
 int minimum = 480;
 int maximum = 2500;
 
