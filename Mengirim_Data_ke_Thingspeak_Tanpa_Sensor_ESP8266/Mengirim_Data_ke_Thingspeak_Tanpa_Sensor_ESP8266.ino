@@ -14,12 +14,12 @@ float nilai = 0;
 int x = 0;
 
 //------------- Detail WiFi -----------------//
-char ssid[] = "isi di dalam sini";   // network SSID (nama WiFi)
-char pass[] = "Isi di dalam sini";   // network password
+char ssid[] = "ssid_wifi_kamu";   // network SSID (nama WiFi)
+char pass[] = "password_wifi_kamu";   // network password
 
 //-------- Detail Channel Thingspeak ----------//
-unsigned long Channel_ID = 000000; // Channel ID
-const int No_field = 1; // Nomor field (biarkan nilainya 1)
+unsigned long Channel_ID = 163364; // Channel ID
+const int No_field = 1; // Nomor field
 const char * WriteAPIKey = "Isi di dalam sini"; // Write API Key
 
 WiFiClient  client;
